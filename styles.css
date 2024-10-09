@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0d0d0d;
+    color: #00ffcc;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    cursor: url('cyberpunk-cursor.png'), auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ec1eff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f8c979;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    border: 1px solid #f8c979;
+    color: #f8c979;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #131103;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #ff00ff;
+    box-shadow: 0 0 10px #ff00ff;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff00ff;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+#results {
+    margin-top: 20px;
+    color: #f8c979;
+}
+
+.result {
+    background-color: #1a1a1a;
+    border: 1px solid #f8c979;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #f8c979;
+}
+
+.monospace {
+    font-family: monospace;
+    word-wrap: break-word;
+    color: #ff00ff;
+    font-size: 1rem;
+}
+.monospace:hover {
+    background-color: #333333;
+    color: #00ffcc;
+}
+
+.copyright {
+    text-align: center;
+    color: #00ffcc;
+}
