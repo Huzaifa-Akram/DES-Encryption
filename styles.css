@@ -1,17 +1,18 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #0d0d0d;
-    color: #00ffcc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;  /* Light grayish-blue background */
+    color: #333333;  /* Dark gray text for readability */
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    cursor: url('cyberpunk-cursor.png'), auto;
+    line-height: 1.6;
 }
 
 h1, h2 {
     text-align: center;
-    color: #ec1eff;
-    text-shadow: 0 0 10px #ff00ff;
+    color: #0066cc;  /* Professional blue for headings */
+    text-shadow: none;
+    margin-bottom: 30px;
 }
 
 .input-group {
@@ -21,62 +22,66 @@ h1, h2 {
 label {
     display: block;
     margin-bottom: 5px;
-    color: #f8c979;
+    color: #333333;
+    font-weight: bold;
 }
 
 input[type="text"] {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     box-sizing: border-box;
-    background-color: #1a1a1a;
-    border: 1px solid #f8c979;
-    color: #f8c979;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    color: #333333;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #0066cc;  /* Highlight input when focused */
 }
 
 button {
     display: block;
     width: 100%;
-    padding: 10px;
-    background-color: #131103;
+    padding: 12px;
+    background-color: #0066cc;  /* Professional blue */
     color: white;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    margin-bottom: 20px;
-    text-shadow: 0 0 5px #ff00ff;
-    box-shadow: 0 0 10px #ff00ff;
-    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
-    background-color: #ff00ff;
-    box-shadow: 0 0 20px #ff00ff;
+    background-color: #004080;  /* Darker blue on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 #results {
     margin-top: 20px;
-    color: #f8c979;
+    color: #333333;
 }
 
 .result {
-    background-color: #1a1a1a;
-    border: 1px solid #f8c979;
-    padding: 10px;
-    margin-bottom: 10px;
-    box-shadow: 0 0 10px #f8c979;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .monospace {
     font-family: monospace;
     word-wrap: break-word;
-    color: #ff00ff;
+    color: #333333;
     font-size: 1rem;
-}
-.monospace:hover {
-    background-color: #333333;
-    color: #00ffcc;
 }
 
 .copyright {
     text-align: center;
-    color: #00ffcc;
+    color: #666666;
+    margin-top: 50px;
 }
