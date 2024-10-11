@@ -85,3 +85,13 @@ button:hover {
     color: #666666;
     margin-top: 50px;
 }
+
+a {
+    color: #0066cc;  
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
